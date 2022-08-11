@@ -12,6 +12,10 @@ apply(plugin = "org.jlleitschuh.gradle.ktlint")
 apply(plugin = "org.jlleitschuh.gradle.ktlint-idea")
 
 dependencies {
+    /// wip pipeline
+    implementation("org.zeroturnaround:zt-exec:1.12")
+    implementation("com.squareup.okio:okio:3.2.0")
+
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.7.10")
 
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:1.7.10")
